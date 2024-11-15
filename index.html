@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>College Enrollment Form</title>
+</head>
+<body>
+
+  <h2>Registration Form</h2>
+  <div class="container">
+    <form name="myform" method="post" action="#" onsubmit="return validateForm()">  
+
+      <!-- Name Fields -->
+      First Name: <input type="text" name="fname" placeholder="Enter your First Name">
+      <span class="error" id="fnameError"></span><br><br>
+      
+      Last Name: <input type="text" name="lname" placeholder="Enter your Last Name">
+      <span class="error" id="lnameError"></span><br><br>
+
+      <!-- Address Fields -->
+      Address: <input type="text" name="add" placeholder="Enter your Address"><br><br>
+      
+      Street Name: <input type="text" name="stadd" placeholder="Enter Street Name"><br><br>
+      
+      Pin Code: <input type="text" name="pcname" placeholder="Enter Pin Code">
+      <span class="error" id="pinCodeError"></span><br><br>
+      
+      City: <input type="text" name="cityname" placeholder="Enter your City"><br><br>
+      
+      State: <input type="text" name="stname" placeholder="Enter your State"><br><br>
+
+      <!-- Date of Birth -->
+      Date of Birth: <input type="date" name="dob" required><br><br>
+
+      <!-- Gender -->
+      Gender: <input type="checkbox" name="gender"> Male
+      <input type="checkbox" name="gender"> Female<br><br>
+<span class="error" id="genderError"></span><br><br>
+
+      <!-- Email -->
+      Email id: <input type="text" name="email" placeholder="Enter your e-mail">
+      <span class="error" id="emailError"></span><br><br>
+
+      <!-- Password Fields -->
+      Password: <input type="password" name="password" placeholder="Enter your Password">
+      <span class="error" id="passwordError"></span><br><br>
+      
+      Re-enter Password: <input type="password" name="password2" placeholder="Re-Enter your Password">
+      <span class="error" id="password2Error"></span><br><br>
+
+      <!-- Phone Number -->
+      Phone Number: <input type="text" name="num" placeholder="Enter your Phone Number">
+      <span class="error" id="phoneError"></span><br><br>
+
+      <!-- Submit Button -->
+      <input type="submit" value="Register">
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

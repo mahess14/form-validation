@@ -1,0 +1,24 @@
+
+    h2{
+        text-align: center;
+        color: blue;
+    }
+    .container { 
+        max-width: 500px; 
+        margin: 20px auto; 
+    }
+    .error { 
+        color: red;
+         font-size: 0.9em; 
+        }
+   input,button { 
+    margin-top: 10px; 
+    padding: 6px; 
+    width: 100%; 
+    color:rgb(57, 5, 247)
+}
+    
+   .checkbox{
+    text-align: center;
+   }
+ 
